@@ -1,0 +1,29 @@
+### Approve
+POST http://localhost:8080/pools/approve
+Content-Type: application/json
+
+### Get pools
+GET http://localhost:8080/pools
+Content-Type: application/json
+
+### Add pool ETH - TOKEN
+POST http://localhost:8080/pools/eth_token
+Content-Type: application/json
+
+{
+  "amount": 200,
+  "price": 5053
+}
+
+### Add pool TOKEN - ETH
+POST http://localhost:8080/pools/token_eth
+Content-Type: application/json
+
+{
+  "amount": 200,
+  "price": 5053
+}
+
+### Delete Pool
+DELETE http://localhost:8080/pools/5511
+Content-Type: application/json

@@ -1,0 +1,15 @@
+### Swap ETH - TOKEN
+POST http://localhost:8080/swaps/eth_token
+Content-Type: application/json
+
+{
+  "amount": 0.01
+}
+
+### Swap TOKEN - ETH
+GET http://localhost:8080/swaps/token_eth
+Content-Type: application/json
+
+{
+  "amount": 40
+}
